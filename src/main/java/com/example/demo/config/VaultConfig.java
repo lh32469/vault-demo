@@ -14,16 +14,23 @@ Corresponding Vault data format at these paths:
 {
   "cfg.list": [
     "one",
-    "two"
+    "two",
+    "three"
   ],
-  "cfg.password": "cloudpassword",
+  "cfg.username": "prodUser",
+  "cfg.password": "prodPass",
+  "cfg.mysql": {
+    "host": "jdbc:mysql://mysql:3306/demo?useTimezone=true&serverTimezone=GMT&autoReconnect=true&useSSL=false",
+    "user": "root",
+    "pass": "mysql"
+  },
   "cfg.timeslot": {
     "duration": 30,
     "start": "09:27:39.389521",
     "userId": "lth"
-  },
-  "cfg.username": "clouduser"
+  }
 }
+
 
  */
 
