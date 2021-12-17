@@ -3,8 +3,3 @@ local:
   redis:
     host: redis.host
     port: 6500
-
-  mysql:
-    url: jdbc:mysql://mysql:3306/demo?useTimezone=true&serverTimezone=GMT&autoReconnect=true&useSSL=false
-    user: root
-    pass: mysql
