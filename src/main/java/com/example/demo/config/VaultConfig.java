@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.config;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
@@ -36,6 +36,7 @@ public class VaultConfig {
   private String password;
   private TimeSlot timeslot;
   private List<String> list;
+  private MySqlConfig mysql;
 
   @Data
   public static class TimeSlot {
