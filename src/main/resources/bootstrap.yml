@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: vault-demo
+  cloud:
+    vault:
+      uri: https://vault-cluster.vault.3af33f4f-806b-4674-b268-a5ac4ab17565.aws.hashicorp.cloud:8200
+      authentication: APPROLE
+      namespace: admin
+      kv:
+        backend: jenkins
+      app-role:
+        role: jenkins
+        app-role-path: approle
+        role-id: 5453bdfb-d3fb-c9a0-d748-83d65ec1ad4a
+        secret-id: ${SECRET}
+
