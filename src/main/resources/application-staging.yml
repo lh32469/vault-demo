@@ -1,5 +1,9 @@
-local:
+spring:
+  datasource:
+    #  ## Point to Vault secure dbusername/dbpassword
+    username: ${dbusername}
+    password: ${dbpassword}
 
-  redis:
-    host: redis.host
-    port: 6500
+redis:
+  host: redis.host
+  port: 6500
