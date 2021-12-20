@@ -1,9 +1,14 @@
-spring:
-  datasource:
-    #  ## Point to Vault secure dbusername/dbpassword
-    username: ${dbusername}
-    password: ${dbpassword}
 
 redis:
   host: redis.host
   port: 6379
+
+
+test:
+  key1: 45
+
+map: '{
+  key1: "value1",
+  key2: "value2",
+  key3: 10
+}'

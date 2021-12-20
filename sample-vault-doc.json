@@ -1,0 +1,23 @@
+{
+  "spring": {
+    "datasource": {
+      "username": "produser",
+      "password": "prodpass"
+    }
+  },
+  "cfg.list": [
+    "one",
+    "two",
+    "three"
+  ],
+  "cfg.timeslot": {
+    "duration": 30,
+    "start": "09:27:39.389521",
+    "userId": "lth"
+  },
+  "test": {
+    "key1": 30
+  }
+}
+
+
